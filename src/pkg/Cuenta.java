@@ -38,13 +38,13 @@ public class Cuenta {
 
 	public void ingresar(double i) {
 		// TODO Auto-generated method stub
-		setSaldo((double) -200);
-
+		setSaldo(getSaldo()+i);
 	}
 
 	public void retirar(double i) {
 		// TODO Auto-generated method stub
-		setSaldo((double) -200);
+		if(getSaldo()>i)
+			setSaldo(getSaldo()-i);
 
 	}
 
