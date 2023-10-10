@@ -39,6 +39,7 @@ public class Cuenta {
 	public void ingresar(double i) {
 		// TODO Auto-generated method stub
 		setSaldo((double) -200);
+		
 
 	}
 
